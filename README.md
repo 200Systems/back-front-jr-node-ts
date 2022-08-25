@@ -4,18 +4,18 @@ Olá, obrigado por participar deste desafio para fazer parte da 200 Systems!
 
 Por favor siga as instruções abaixo para executar o máximo dos requisitos que conseguir.
 
-Vale ressaltar que, um código limpo e organizado, _commits_ atômicos com mensagens que explicam bem o objetivo, também são importantes :)
+Vale ressaltar que, um código limpo e organizado, _commits_ atômicos com mensagens que explicam bem o objetivo também são importantes :)
 
 1. Use seu próprio git para desenvolver e subir este challenge.
-2. Após concluir ou chegar a data limite de prazo para entregar, envie um e-mail para o [recruta@200.sysetms](mailto:recruta@200.systems) com seu nome e a url do repo (mantenha como públio ok?).
+2. Após concluir ou chegar a data limite/prazo para entregar, envie um e-mail para o [recruta@200.systems](mailto:recruta@200.systems) com seu nome e a url do repo (mantenha como público ok?).
 
-Caso chegar o prazo máximo e você não conseguiu terminar, não tem problema. Mande o seu repo mesmo assim! Todo o esforço e a entrega será levado em conta.
+Caso chegue o prazo máximo e você não conseguir terminar, não tem problema. Mande a url do seu repo mesmo assim! Todo o esforço e a entrega será levado em conta.
 
 ## Contexto
 
-Uma empresa necessita de um sistema para apoiar seu programa de indicação, que funciona assim:
+Uma empresa necessita de um sistema para apoiar seu programa de indicação. Esse programa funciona assim:
 
-- Todos que fizerem uma compra, ganha um código único de indicação.
+- Todos que fizerem uma compra, ganha um código de indicação.
 - Uma pessoa (A) compra um produto, e como todos, recebe um código de indicação.
 - Outra pessoa (B) compra um produto e usa o código de indicação recebido da pessoa (A).
 - A pessoa (A) acumula 1 ponto de indicação.
@@ -44,8 +44,19 @@ Deverá ser possível consultar todos os clientes que compraram, de modo resumid
 Exemplo output:
 ```
 {
-    "person_name": "A",
-    "points": 9
+    [
+        {
+            "person_code": 1,
+            "person_name": "A",
+            "points": 9
+        },
+        {
+            "person_code": 2,
+            "person_name": "B",
+            "points": 5
+        },
+        {...}
+    ]
 }
 ```
 
