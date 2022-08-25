@@ -39,7 +39,7 @@ Exemplo input:
 \* Não esqueça de retornar um novo código de indicação!
 
 
-Deverá ser possível consultar todos os clientes que compraram, de modo resumido, os maiores pontuadores primeiro.
+Deverá ser possível consultar todos os clientes que compraram, de modo resumido. Os maiores pontuadores são mostados primeiro.
 
 Exemplo output:
 ```
