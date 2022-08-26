@@ -23,7 +23,7 @@ Uma empresa necessita de um sistema para apoiar seu programa de indicação. Ess
 
 ## O desafio
 
-Desafiamos você, jovem Padawan, criar uma API Rest utilizando Node, Express e MySQL. Pode utilizar Javascript ou Typescript. 
+Desafiamos você, criar uma API Rest utilizando Node, Express e MySQL. Utilize Typescript preferencialmente.
 
 Será necessário um endpoint para registrar as compras, com ou sem código de indicação.
 
